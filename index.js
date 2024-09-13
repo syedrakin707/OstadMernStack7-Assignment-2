@@ -1,5 +1,5 @@
 function calculateDifference(num1, num2){
-    return num1-num2
+    return Math.abs(num1-num2)
 }
 
 function isOdd(num){
@@ -50,7 +50,9 @@ function findAverage(array){
     return sum/array.length;
 }
 
-var diff = calculateDifference(9, 3);
+// Did a test drive on the functions to ensure that I am on the right path
+
+var diff = calculateDifference(3.5, 6.0);
 console.log(diff)
 
 var odd = isOdd(3);
